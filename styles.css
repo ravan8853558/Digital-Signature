@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#nameInput {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #ff5f6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #ffc371;
+}
+
+#signaturePreview {
+  margin-top: 20px;
+}
+
+canvas {
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+#downloadBtn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(120deg, #ff5f6d, #ffc371);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

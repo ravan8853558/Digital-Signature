@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Signature Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Signature Maker</h1>
+    <input type="text" id="nameInput" placeholder="Enter Your Name" />
+    <button id="generateBtn">Generate Signature</button>
+    <div id="signaturePreview">
+      <canvas id="signatureCanvas"></canvas>
+    </div>
+    <a id="downloadBtn" download="signature.png" class="btn">Download Signature</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
